@@ -9,13 +9,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 
 @Composable
 fun Homescreen(
     onButtonClicked: () -> Unit,
-    viewModel: HomescreenViewModel = hiltViewModel()
+    viewModel: HomescreenViewModel = viewModel()
 ) {
     // A surface container using the 'background' color from the theme
     Column(
