@@ -7,16 +7,16 @@ class HomescreenViewModel constructor(
     private val savedStateHandle: SavedStateHandle
 ): ViewModel() {
 
-    val key = "foo"
+    private val key = "foo"
 
-    val foo: String? = savedStateHandle[key]
+    val foo = savedStateHandle.getStateFlow<String?>(key, savedStateHandle[key])
 
     init {
         savedStateHandle.log("HomescreenViewModel")
     }
 
-    fun setValue(){
-        savedStateHandle[key] = "a"
+    fun setValue(value: String){
+        savedStateHandle[key] = value
         savedStateHandle.log("HomescreenViewModel")
     }
 }
