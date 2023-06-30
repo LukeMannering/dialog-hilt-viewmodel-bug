@@ -11,5 +11,6 @@ Reproduction steps:
 - Click "Set Value" sets a value `bar` in the `SavedStateHandle` for the `DialogViewModel`.
 - Leave the app, then return
 - See that the `SavedStateHandle` is restored for the `HomescreenViewModel` but not the `DialogViewModel`
-https://github.com/LukeMannering/dialog-hilt-viewmodel-bug/assets/1769850/79c03721-ed96-499b-8f5b-04ce8a78cc78
+
+<video src="https://github.com/LukeMannering/dialog-hilt-viewmodel-bug/assets/1769850/79c03721-ed96-499b-8f5b-04ce8a78cc78"/>
 
