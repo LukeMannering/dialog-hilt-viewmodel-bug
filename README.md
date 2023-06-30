@@ -12,3 +12,7 @@ Reproduction steps:
 - See that the `SavedStateHandle` is restored for the `HomescreenViewModel` but not the `DialogViewModel`
 
 I've also shown the same effect happening if you use `rememberSaveable` in the composable as 
+
+
+<video src="https://github.com/LukeMannering/dialog-hilt-viewmodel-bug/assets/1769850/2d28d790-3468-48b8-8e2c-5aea1567ec1d"/>
+
