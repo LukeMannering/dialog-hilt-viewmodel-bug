@@ -1,4 +1,4 @@
-# dialog-hilt-viewmodel-bug
+# Compose dialog with SavedStateHandle bug
 Reproduction steps for bug with SavedStateHandle restoration in dialog view models
 
 Reproduction steps:
